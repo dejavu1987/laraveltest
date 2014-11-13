@@ -1,0 +1,1 @@
+E:\dev\laravel\idea1\app/views/ideas/index.blade.php
