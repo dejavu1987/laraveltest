@@ -1,7 +1,7 @@
 <?php
 
 class Rating extends \Eloquent {
-	protected $fillable = [];
+	protected $fillable = ['title','body'];
 
 	public function ideas()
     {

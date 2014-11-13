@@ -12,7 +12,8 @@ class IdeasTableSeeder extends Seeder {
 		foreach(range(1, 10) as $index)
 		{
 			Idea::create([
-
+					'title' => $faker->sentence(6),
+					'body' => $faker->text,
 			]);
 		}
 	}
